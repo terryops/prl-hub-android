@@ -26,12 +26,21 @@ The interface is the [Pearl Hub web frontend](https://github.com/terryops/prl-hu
 
 Requirements: JDK 17 or newer, the Android SDK with platform 37 and build-tools (`local.properties` with `sdk.dir=…`, or `ANDROID_HOME`), and Node.js 22.6 or newer for the web bundle.
 
-1. Build the web bundle from a [prl-hub-web](https://github.com/terryops/prl-hub-web) checkout. Its Android build also builds the wallet from a [prl-hub-wallet](https://github.com/terryops/prl-hub-wallet) checkout next to it.
-2. Point this build at the bundle with `-PwebDir=/absolute/path/to/dist-android` (or `PRL_HUB_WEB=<prl-hub-web checkout>`). Every build first copies it into `app/src/main/assets/www/`; without an `index.html` there it stops and says so.
-3. Build:
+Clone the three repositories side by side, build the web bundle (it also builds the wallet), then the app:
 
 ```sh
-./gradlew assemblePlayDebug assembleDirectDebug   # debug APKs
+git clone https://github.com/terryops/prl-hub-android
+git clone https://github.com/terryops/prl-hub-web
+git clone https://github.com/terryops/prl-hub-wallet
+(cd prl-hub-wallet && npm ci)
+(cd prl-hub-web && npm ci && npm run build:android)   # writes prl-hub-web/dist-android
+cd prl-hub-android
+./gradlew assemblePlayDebug assembleDirectDebug -PwebDir=../prl-hub-web/dist-android
+```
+
+Every build first copies the bundle named by `-PwebDir` into `app/src/main/assets/www/`; without an `index.html` there it stops and says so. Other tasks take the same `-PwebDir`:
+
+```sh
 ./gradlew bundlePlayRelease                       # Google Play (.aab)
 ./gradlew assembleDirectRelease                   # direct download (.apk)
 ./gradlew test lint
@@ -39,7 +48,7 @@ Requirements: JDK 17 or newer, the Android SDK with platform 37 and build-tools 
 
 The two flavors share the application id `com.prl.wizard`. `play` adds Google Play's review, update and billing libraries; `direct` has none of them.
 
-**Push (optional).** Without a Firebase configuration the app builds and runs normally and push is simply off. To enable it, create a Firebase project with an Android app for your package name and put its `google-services.json` in `app/`, or write `firebase.properties` in the repository root with `projectId`, `applicationId`, `apiKey` and `gcmSenderId`. Notifications from the official server only reach the official app.
+**Push (optional).** Without a Firebase configuration the app builds and runs normally and push is simply off. To enable it, create a Firebase project with an Android app for `com.prl.wizard` and put its `google-services.json` in `app/`, or write `firebase.properties` in the repository root with `projectId`, `applicationId`, `apiKey` and `gcmSenderId`. Notifications from the official server only reach the official app.
 
 **Release signing.** Without `keystore.properties` in the repository root, release builds are unsigned. With it: `storeFile`, `storePassword`, `keyAlias` and `keyPassword`, plus optional `upload.*` entries for a separate Play upload key.
 
