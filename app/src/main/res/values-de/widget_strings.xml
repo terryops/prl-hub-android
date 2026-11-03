@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widgets. Generated from the iOS app's Localizable.strings (prl-hub Sources/*.lproj); keep in step. -->
+<resources>
+    <string name="widget_balance">Guthaben</string>
+    <string name="widget_recent">Letzte Transaktionen</string>
+    <string name="widget_no_transactions">Noch keine Transaktionen</string>
+    <string name="widget_create_wallet">Wallet erstellen</string>
+    <string name="widget_pro_feature">Pro-Funktion</string>
+    <string name="widget_pro_pitch">Guthaben, Preis und Pool-Hashrate auf einen Blick</string>
+    <string name="widget_tap_to_unlock">Tippe zum Freischalten</string>
+    <string name="widget_small_free">Die kleine Größe ist kostenlos</string>
+    <string name="widget_hub_description">Wallet-Guthaben und Pool-Monitor (mittel &amp; groß nur mit Pro)</string>
+    <string name="widget_price_name">PRL-Preis</string>
+    <string name="widget_price_description">Datum, Wochentag und PRL-Live-Preis</string>
+    <string name="widget_quote_name">PRL-Kurs</string>
+    <string name="widget_quote_description">Kurs und Änderungen über 1 / 24 Stunden</string>
+    <string name="widget_quote_mining_name">Kurs &amp; Pool-Monitor</string>
+    <string name="widget_quote_mining_description">PRL-Kurs, gesamte Hashrate und aktive Miner</string>
+    <string name="widget_quote_updated">Kurs aktualisiert: %1$s</string>
+    <string name="widget_pools_updated">Pools aktualisiert: %1$s</string>
+    <string name="widget_add_monitor">Pool-Monitor hinzufügen</string>
+    <string name="widget_monitor">Monitor</string>
+    <string name="widget_hashrate">Hashrate</string>
+    <string name="widget_online">Online</string>
+    <string name="widget_monitors_combined">%1$d Monitore zusammen</string>
+    <string name="widget_monitors_with_data">%1$d/%2$d Monitore mit Daten</string>
+    <string name="widget_one_hour">1 Stunde</string>
+    <string name="widget_one_day">24 Stunden</string>
+    <string name="widget_change_1h_name">PRL-Änderung: 1 Stunde</string>
+    <string name="widget_change_24h_name">PRL-Änderung: 24 Stunden</string>
+    <string name="widget_change_1h_description">PRL-Kursänderung in der letzten Stunde</string>
+    <string name="widget_change_24h_description">PRL-Kursänderung in den letzten 24 Stunden</string>
+    <string name="widget_cover_market_name">Markt auf einen Blick</string>
+    <string name="widget_cover_mining_name">Mining auf einen Blick</string>
+    <string name="widget_cover_description">Große Zahlen für Startbildschirm und unterstützte Außendisplays; Größe anpassbar.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classic Blue, night: ClassicNightBackground.swift's gradient and its two soft highlights. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/widget_radius" />
+            <gradient android:angle="315" android:startColor="#FF355C8D" android:centerColor="#FF3C5B90" android:endColor="#FF445991" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/widget_radius" />
+            <gradient android:type="radial" android:centerX="0.25" android:centerY="0.05" android:gradientRadius="45%"
+                android:startColor="#2EFFFFFF" android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/widget_radius" />
+            <gradient android:type="radial" android:centerX="0.84" android:centerY="0.95" android:gradientRadius="40%"
+                android:startColor="#4D5CB8EB" android:endColor="#005CB8EB" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">价格提醒</string>
+    <string name="channel_offline">掉线提醒</string>
+    <string name="channel_income">到账提醒</string>
+    <string name="channel_live">锁屏盯盘</string>
+    <string name="webview_update_title">更新 Android System WebView</string>
+    <string name="webview_update_message">Pearl Hub 需要较新版本的 Android System WebView。请在 Google Play 中更新后重新打开应用。</string>
+    <string name="webview_update_action">更新</string>
+    <string name="close">关闭</string>
+    <string name="no_app_for_link">没有可以打开此链接的应用。</string>
+    <string name="unlock_wallet">解锁钱包</string>
+</resources>

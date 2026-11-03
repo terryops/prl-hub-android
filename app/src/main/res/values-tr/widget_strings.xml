@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widgets. Generated from the iOS app's Localizable.strings (prl-hub Sources/*.lproj); keep in step. -->
+<resources>
+    <string name="widget_balance">Bakiye</string>
+    <string name="widget_recent">Son İşlemler</string>
+    <string name="widget_no_transactions">Henüz işlem yok</string>
+    <string name="widget_create_wallet">Cüzdan Oluştur</string>
+    <string name="widget_pro_feature">Pro özelliği</string>
+    <string name="widget_pro_pitch">Bakiye, fiyat ve havuz hashrate değeri tek bakışta</string>
+    <string name="widget_tap_to_unlock">Açmak için dokunun</string>
+    <string name="widget_small_free">Küçük boyut ücretsizdir</string>
+    <string name="widget_hub_description">Cüzdan bakiyesi ve havuz izleme (orta ve büyük boyut için Pro gerekir)</string>
+    <string name="widget_price_name">PRL Fiyatı</string>
+    <string name="widget_price_description">Tarih, gün ve canlı PRL fiyatı</string>
+    <string name="widget_quote_name">PRL Fiyatı</string>
+    <string name="widget_quote_description">Fiyat ve 1 / 24 saatlik değişimler</string>
+    <string name="widget_quote_mining_name">Fiyat ve Havuz Takibi</string>
+    <string name="widget_quote_mining_description">PRL fiyatı, toplam hash hızı ve çevrimiçi madenciler</string>
+    <string name="widget_quote_updated">Fiyat güncelleme zamanı: %1$s</string>
+    <string name="widget_pools_updated">Havuz güncelleme zamanı: %1$s</string>
+    <string name="widget_add_monitor">Havuz takibi ekle</string>
+    <string name="widget_monitor">İzleme</string>
+    <string name="widget_hashrate">Hashrate</string>
+    <string name="widget_online">Çevrimiçi</string>
+    <string name="widget_monitors_combined">%1$d takibin toplamı</string>
+    <string name="widget_monitors_with_data">%1$d/%2$d takipte veri var</string>
+    <string name="widget_one_hour">1 Saat</string>
+    <string name="widget_one_day">24 Saat</string>
+    <string name="widget_change_1h_name">PRL 1 Saatlik Değişim</string>
+    <string name="widget_change_24h_name">PRL 24 Saatlik Değişim</string>
+    <string name="widget_change_1h_description">Son saatteki PRL fiyat değişimi</string>
+    <string name="widget_change_24h_description">Son 24 saatteki PRL fiyat değişimi</string>
+    <string name="widget_cover_market_name">Bir Bakışta Piyasa</string>
+    <string name="widget_cover_mining_name">Bir Bakışta Madencilik</string>
+    <string name="widget_cover_description">Ana ekran ve desteklenen dış ekranlar için büyük rakamlar; boyutlandırılabilir.</string>
+</resources>

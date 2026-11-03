@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Figures the widget picker previews show (the iOS widget's demo snapshot). The placed
+     widgets replace every one of them; none is user-facing copy. -->
+<resources>
+    <string name="widget_pair" translatable="false">PRL/USD</string>
+    <string name="widget_usd" translatable="false">USD</string>
+    <string name="widget_prl" translatable="false">PRL</string>
+    <string name="widget_prl_usd" translatable="false">PRL · USD</string>
+    <string name="widget_1h" translatable="false">1h</string>
+    <string name="widget_24h" translatable="false">24h</string>
+    <string name="widget_sample_price" translatable="false">$1.85</string>
+    <string name="widget_sample_head" translatable="false">63.61</string>
+    <string name="widget_sample_tail" translatable="false">479714</string>
+    <string name="widget_sample_fiat" translatable="false">≈ $117.69 · ¥835.60</string>
+    <string name="widget_sample_rate_a" translatable="false">1.23 GH/s</string>
+    <string name="widget_sample_rate_b" translatable="false">642.00 MH/s</string>
+    <string name="widget_sample_rate_total" translatable="false">1.87 GH/s</string>
+    <string name="widget_sample_workers_a" translatable="false">3/4</string>
+    <string name="widget_sample_workers_b" translatable="false">2/2</string>
+    <string name="widget_sample_workers_total" translatable="false">5/6</string>
+    <string name="widget_sample_change_1h" translatable="false">−0.84%</string>
+    <string name="widget_sample_change_24h" translatable="false">+5.26%</string>
+    <string name="widget_sample_time" translatable="false">14:32</string>
+    <string name="widget_sample_label" translatable="false">Rig A</string>
+    <string name="widget_sample_date" translatable="false">Fri, Oct 16</string>
+    <string name="widget_sample_stamp" translatable="false">Now</string>
+    <string name="widget_prl_1h" translatable="false">PRL · 1h</string>
+    <string name="widget_sample_change" translatable="false">+1.60%</string>
+    <string name="widget_prl_24h" translatable="false">PRL · 24h</string>
+</resources>

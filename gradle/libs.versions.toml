@@ -1,0 +1,39 @@
+[versions]
+agp = "9.4.1"
+kotlin = "2.4.21"
+activity = "1.13.0"
+appcompat = "1.8.0"
+biometric = "1.1.0"
+core = "1.19.1"
+splashscreen = "1.2.0"
+firebaseBom = "35.0.2"
+junit = "4.13.2"
+material = "1.14.0"
+webkit = "1.17.1"
+work = "2.12.0"
+json = "20260719"
+playReview = "2.0.2"
+playAppUpdate = "2.1.0"
+playBilling = "9.1.0"
+
+[libraries]
+androidx-activity = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "core" }
+androidx-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "splashscreen" }
+androidx-webkit = { module = "androidx.webkit:webkit", version.ref = "webkit" }
+androidx-work = { module = "androidx.work:work-runtime", version.ref = "work" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging" }
+junit = { module = "junit:junit", version.ref = "junit" }
+json = { module = "org.json:json", version.ref = "json" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+play-review = { module = "com.google.android.play:review", version.ref = "playReview" }
+play-app-update = { module = "com.google.android.play:app-update", version.ref = "playAppUpdate" }
+play-billing = { module = "com.android.billingclient:billing", version.ref = "playBilling" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+# AGP 9 compiles Kotlin itself; declaring the plugin only pins a newer Kotlin than AGP's own.
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

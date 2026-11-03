@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">Avvisi di prezzo</string>
+    <string name="channel_offline">Avvisi offline</string>
+    <string name="channel_income">Avvisi di accredito</string>
+    <string name="channel_live">Prezzo su schermata di blocco</string>
+    <string name="webview_update_title">Aggiorna Android System WebView</string>
+    <string name="webview_update_message">Pearl Hub richiede una versione più recente di Android System WebView. Aggiornala su Google Play, poi riapri l’app.</string>
+    <string name="webview_update_action">Aggiorna</string>
+    <string name="close">Chiudi</string>
+    <string name="no_app_for_link">Nessuna app può aprire questo link.</string>
+    <string name="unlock_wallet">Sblocca wallet</string>
+</resources>

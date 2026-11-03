@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">แจ้งเตือนราคา</string>
+    <string name="channel_offline">แจ้งเตือนออฟไลน์</string>
+    <string name="channel_income">แจ้งเตือนเงินเข้า</string>
+    <string name="channel_live">ราคาสดบนหน้าจอล็อค</string>
+    <string name="webview_update_title">อัปเดต Android System WebView</string>
+    <string name="webview_update_message">Pearl Hub ต้องใช้ Android System WebView เวอร์ชันใหม่กว่านี้ โปรดอัปเดตใน Google Play แล้วเปิดแอปอีกครั้ง</string>
+    <string name="webview_update_action">อัปเดต</string>
+    <string name="close">ปิด</string>
+    <string name="no_app_for_link">ไม่มีแอปที่เปิดลิงก์นี้ได้</string>
+    <string name="unlock_wallet">ปลดล็อคกระเป๋าเงิน</string>
+</resources>

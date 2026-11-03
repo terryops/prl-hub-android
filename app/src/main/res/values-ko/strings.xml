@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">가격 알림</string>
+    <string name="channel_offline">오프라인 알림</string>
+    <string name="channel_income">입금 알림</string>
+    <string name="channel_live">잠금 화면 실시간 가격</string>
+    <string name="webview_update_title">Android System WebView 업데이트</string>
+    <string name="webview_update_message">Pearl Hub를 사용하려면 최신 버전의 Android System WebView가 필요합니다. Google Play에서 업데이트한 후 앱을 다시 열어 주세요.</string>
+    <string name="webview_update_action">업데이트</string>
+    <string name="close">닫기</string>
+    <string name="no_app_for_link">이 링크를 열 수 있는 앱이 없습니다.</string>
+    <string name="unlock_wallet">지갑 잠금 해제</string>
+</resources>

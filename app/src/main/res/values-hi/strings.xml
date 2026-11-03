@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">कीमत अलर्ट</string>
+    <string name="channel_offline">ऑफ़लाइन अलर्ट</string>
+    <string name="channel_income">प्राप्ति अलर्ट</string>
+    <string name="channel_live">लॉक स्क्रीन पर लाइव कीमत</string>
+    <string name="webview_update_title">Android System WebView अपडेट करें</string>
+    <string name="webview_update_message">Pearl Hub को Android System WebView का नया वर्शन चाहिए। इसे Google Play में अपडेट करें, फिर ऐप दोबारा खोलें।</string>
+    <string name="webview_update_action">अपडेट करें</string>
+    <string name="close">बंद करें</string>
+    <string name="no_app_for_link">कोई भी ऐप यह लिंक नहीं खोल सकता।</string>
+    <string name="unlock_wallet">वॉलेट अनलॉक करें</string>
+</resources>

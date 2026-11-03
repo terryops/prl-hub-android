@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widgets. Generated from the iOS app's Localizable.strings (prl-hub Sources/*.lproj); keep in step. -->
+<resources>
+    <string name="widget_balance">Saldo</string>
+    <string name="widget_recent">Transacciones recientes</string>
+    <string name="widget_no_transactions">Aún no hay transacciones</string>
+    <string name="widget_create_wallet">Crear billetera</string>
+    <string name="widget_pro_feature">Función Pro</string>
+    <string name="widget_pro_pitch">Saldo, precio y hashrate del pool de un vistazo</string>
+    <string name="widget_tap_to_unlock">Toca para desbloquear</string>
+    <string name="widget_small_free">El tamaño pequeño es gratis</string>
+    <string name="widget_hub_description">Saldo de la billetera y monitor de pools (mediano y grande requieren Pro)</string>
+    <string name="widget_price_name">Precio de PRL</string>
+    <string name="widget_price_description">Fecha, día de la semana y precio de PRL en vivo</string>
+    <string name="widget_quote_name">Cotización de PRL</string>
+    <string name="widget_quote_description">Precio y variación de 1 / 24 horas</string>
+    <string name="widget_quote_mining_name">Cotización y monitor de pools</string>
+    <string name="widget_quote_mining_description">Precio de PRL, hashrate total y mineros en línea</string>
+    <string name="widget_quote_updated">Cotización actualizada: %1$s</string>
+    <string name="widget_pools_updated">Pools actualizados: %1$s</string>
+    <string name="widget_add_monitor">Añadir monitor de pool</string>
+    <string name="widget_monitor">Monitor</string>
+    <string name="widget_hashrate">Hashrate</string>
+    <string name="widget_online">En línea</string>
+    <string name="widget_monitors_combined">%1$d monitores combinados</string>
+    <string name="widget_monitors_with_data">%1$d/%2$d monitores con datos</string>
+    <string name="widget_one_hour">1 hora</string>
+    <string name="widget_one_day">24 horas</string>
+    <string name="widget_change_1h_name">Variación de PRL: 1 hora</string>
+    <string name="widget_change_24h_name">Variación de PRL: 24 horas</string>
+    <string name="widget_change_1h_description">Variación de PRL en la última hora</string>
+    <string name="widget_change_24h_description">Variación de PRL en las últimas 24 horas</string>
+    <string name="widget_cover_market_name">Mercado de un vistazo</string>
+    <string name="widget_cover_mining_name">Minería de un vistazo</string>
+    <string name="widget_cover_description">Cifras grandes para la pantalla de inicio y pantallas externas compatibles; tamaño ajustable.</string>
+</resources>

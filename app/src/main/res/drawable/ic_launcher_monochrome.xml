@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon layer: the pearl with its highlight cut out. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd"
+        android:pathData="M32,54 A22,22 0 1,0 76,54 A22,22 0 1,0 32,54 Z M40.58,49.74 A7.19,4.61 -34.47 1,0 52.43,41.6 A7.19,4.61 -34.47 1,0 40.58,49.74 Z" />
+</vector>

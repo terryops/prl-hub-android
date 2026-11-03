@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widgets. Generated from the iOS app's Localizable.strings (prl-hub Sources/*.lproj); keep in step. -->
+<resources>
+    <string name="widget_balance">餘額</string>
+    <string name="widget_recent">最近交易</string>
+    <string name="widget_no_transactions">暫無交易記錄</string>
+    <string name="widget_create_wallet">建立錢包</string>
+    <string name="widget_pro_feature">高級版功能</string>
+    <string name="widget_pro_pitch">在桌面隨時查看餘額、幣價和礦池算力</string>
+    <string name="widget_tap_to_unlock">點按解鎖</string>
+    <string name="widget_small_free">小尺寸可免費使用</string>
+    <string name="widget_hub_description">錢包餘額與挖礦監控（中、大尺寸需高級版）</string>
+    <string name="widget_price_name">PRL 幣價</string>
+    <string name="widget_price_description">日期、星期與 PRL 即時幣價</string>
+    <string name="widget_quote_name">PRL 報價</string>
+    <string name="widget_quote_description">報價與 1 小時、24 小時漲跌幅</string>
+    <string name="widget_quote_mining_name">報價與礦池監控</string>
+    <string name="widget_quote_mining_description">PRL 報價、總算力和在線礦機數</string>
+    <string name="widget_quote_updated">報價更新於 %1$s</string>
+    <string name="widget_pools_updated">礦池更新於 %1$s</string>
+    <string name="widget_add_monitor">新增礦池監控</string>
+    <string name="widget_monitor">我的監控</string>
+    <string name="widget_hashrate">總算力</string>
+    <string name="widget_online">線上</string>
+    <string name="widget_monitors_combined">彙總 %1$d 個監控</string>
+    <string name="widget_monitors_with_data">%1$d/%2$d 個監控有資料</string>
+    <string name="widget_one_hour">1 小時</string>
+    <string name="widget_one_day">24 小時</string>
+    <string name="widget_change_1h_name">PRL 1 小時漲跌幅</string>
+    <string name="widget_change_24h_name">PRL 24 小時漲跌幅</string>
+    <string name="widget_change_1h_description">過去 1 小時的 PRL 漲跌幅</string>
+    <string name="widget_change_24h_description">過去 24 小時的 PRL 漲跌幅</string>
+    <string name="widget_cover_market_name">行情速覽</string>
+    <string name="widget_cover_mining_name">礦池速覽</string>
+    <string name="widget_cover_description">大字顯示，適合桌面與支援小工具的外螢幕，可自由調整大小。</string>
+</resources>

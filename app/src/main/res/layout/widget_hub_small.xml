@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pearl Hub, small (free): price on top, the balance under it, one mining line. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_classic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/widget_padding">
+
+        <LinearLayout
+            android:id="@+id/w_price_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/w_price_label"
+                style="@style/WidgetText.Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_pair"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/w_price"
+                style="@style/WidgetText.Price"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:autoSizeMaxTextSize="22sp"
+                android:text="@string/widget_sample_price" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/w_divider"
+            style="@style/WidgetDivider"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="4dp" />
+
+        <LinearLayout
+            android:id="@+id/w_wallet_area"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/w_balance_head"
+                    style="@style/WidgetText.Figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:text="@string/widget_sample_head"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/w_balance_tail"
+                    style="@style/WidgetText.Figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:text="@string/widget_sample_tail"
+                    android:textColor="#CCFFFFFF"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/w_balance_unit"
+                    style="@style/WidgetText.Figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/widget_prl"
+                    android:textColor="#CCFFFFFF"
+                    android:textSize="9sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/w_fiat"
+                style="@style/WidgetText.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/widget_sample_fiat"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/w_pools_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/w_divider_pools"
+                style="@style/WidgetDivider"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/w_bolt"
+                    style="@style/WidgetIcon"
+                    android:src="@drawable/ic_widget_bolt" />
+
+                <TextView
+                    android:id="@+id/w_hashrate"
+                    style="@style/WidgetText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="1"
+                    android:text="@string/widget_sample_rate_total" />
+
+                <ImageView
+                        android:visibility="gone"
+                    android:id="@+id/w_desktop"
+                    style="@style/WidgetIcon"
+                    android:src="@drawable/ic_widget_desktop" />
+
+                <TextView
+                    android:id="@+id/w_workers"
+                    style="@style/WidgetText.Rigs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/widget_sample_workers_total" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

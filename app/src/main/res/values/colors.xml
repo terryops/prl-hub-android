@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The web app's page background (Classic Blue palette), so the splash and first frame match. -->
+    <color name="page_background">#F4F6FC</color>
+    <color name="pearl_blue">#527AF2</color>
+    <color name="accent">#527AF2</color>
+    <!-- Native dialogs use the web app's surface and text colours instead of Material's purple tint. -->
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#172033</color>
+    <color name="on_surface_variant">#4A5468</color>
+    <color name="ic_launcher_background">#F4F6FC</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_change_24h_description"
+    android:initialLayout="@layout/widget_change_24h_preview" android:initialKeyguardLayout="@layout/widget_change_24h_preview"
+    android:minWidth="56dp" android:minHeight="56dp"
+    android:minResizeWidth="56dp" android:minResizeHeight="56dp"
+    android:previewImage="@drawable/widget_preview_change_24h"
+    android:previewLayout="@layout/widget_change_24h_preview"
+    android:resizeMode="horizontal|vertical" android:targetCellWidth="1" android:targetCellHeight="1"
+    android:updatePeriodMillis="0" android:widgetCategory="home_screen|keyguard" />

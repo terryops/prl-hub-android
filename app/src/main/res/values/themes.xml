@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DayNight sets isLightTheme, which the WebView reports as prefers-color-scheme. -->
+    <style name="Theme.PearlHub" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/page_background</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceContainerHigh">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+    </style>
+
+    <style name="Theme.PearlHub.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/page_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_mark</item>
+        <item name="postSplashScreenTheme">@style/Theme.PearlHub</item>
+    </style>
+</resources>

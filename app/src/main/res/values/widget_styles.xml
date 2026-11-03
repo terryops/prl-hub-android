@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_radius">20dp</dimen>
+    <dimen name="widget_padding">14dp</dimen>
+    <dimen name="widget_hairline">0.6dp</dimen>
+
+    <!-- Widget text. Colours here are the Classic Blue day ones (the picker preview); the
+         renderer sets every colour from the app's palette and appearance. -->
+    <style name="WidgetText">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+    </style>
+
+    <style name="WidgetText.Label">
+        <item name="android:textColor">#CCFFFFFF</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="WidgetText.Small">
+        <item name="android:textColor">#CCFFFFFF</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="WidgetText.Figure">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WidgetText.Rigs">
+        <item name="android:background">@drawable/widget_rigs_ok_classic</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:ellipsize">none</item>
+    </style>
+
+    <!-- The live price: autosized into a fixed-height box. -->
+    <style name="WidgetText.Price">
+        <item name="android:textColor">#FFFFC747</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">12sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+
+    <style name="WidgetDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/widget_hairline</item>
+        <item name="android:background">@drawable/widget_div_classic</item>
+    </style>
+
+    <style name="WidgetIcon">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+</resources>

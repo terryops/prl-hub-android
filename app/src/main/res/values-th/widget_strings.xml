@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widgets. Generated from the iOS app's Localizable.strings (prl-hub Sources/*.lproj); keep in step. -->
+<resources>
+    <string name="widget_balance">ยอดคงเหลือ</string>
+    <string name="widget_recent">ธุรกรรมล่าสุด</string>
+    <string name="widget_no_transactions">ยังไม่มีธุรกรรม</string>
+    <string name="widget_create_wallet">สร้างกระเป๋าเงิน</string>
+    <string name="widget_pro_feature">ฟีเจอร์ Pro</string>
+    <string name="widget_pro_pitch">ดูยอดคงเหลือ ราคา และแฮชเรตพูลได้ในพริบตา</string>
+    <string name="widget_tap_to_unlock">แตะเพื่อปลดล็อค</string>
+    <string name="widget_small_free">ขนาดเล็กใช้ได้ฟรี</string>
+    <string name="widget_hub_description">ยอดคงเหลือกระเป๋าเงินและการติดตามพูล (ขนาดกลางและใหญ่ต้องใช้ Pro)</string>
+    <string name="widget_price_name">ราคา PRL</string>
+    <string name="widget_price_description">วันที่ วันในสัปดาห์ และราคา PRL แบบเรียลไทม์</string>
+    <string name="widget_quote_name">ราคา PRL</string>
+    <string name="widget_quote_description">ราคาและการเปลี่ยนแปลงใน 1 / 24 ชั่วโมง</string>
+    <string name="widget_quote_mining_name">ราคาและการติดตามพูล</string>
+    <string name="widget_quote_mining_description">ราคา PRL แฮชเรตรวม และจำนวนเครื่องขุดออนไลน์</string>
+    <string name="widget_quote_updated">อัปเดตราคาเมื่อ %1$s</string>
+    <string name="widget_pools_updated">อัปเดตพูลเมื่อ %1$s</string>
+    <string name="widget_add_monitor">เพิ่มการติดตามพูล</string>
+    <string name="widget_monitor">ติดตาม</string>
+    <string name="widget_hashrate">แฮชเรต</string>
+    <string name="widget_online">ออนไลน์</string>
+    <string name="widget_monitors_combined">รวม %1$d รายการติดตาม</string>
+    <string name="widget_monitors_with_data">%1$d/%2$d รายการติดตามมีข้อมูล</string>
+    <string name="widget_one_hour">1 ชั่วโมง</string>
+    <string name="widget_one_day">24 ชั่วโมง</string>
+    <string name="widget_change_1h_name">การเปลี่ยนแปลง PRL ใน 1 ชั่วโมง</string>
+    <string name="widget_change_24h_name">การเปลี่ยนแปลง PRL ใน 24 ชั่วโมง</string>
+    <string name="widget_change_1h_description">การเปลี่ยนแปลงราคา PRL ในชั่วโมงที่ผ่านมา</string>
+    <string name="widget_change_24h_description">การเปลี่ยนแปลงราคา PRL ใน 24 ชั่วโมงที่ผ่านมา</string>
+    <string name="widget_cover_market_name">ภาพรวมตลาด</string>
+    <string name="widget_cover_mining_name">ภาพรวมการขุด</string>
+    <string name="widget_cover_description">ตัวเลขขนาดใหญ่สำหรับหน้าจอหลักและหน้าจอนอกที่รองรับ ปรับขนาดได้</string>
+</resources>

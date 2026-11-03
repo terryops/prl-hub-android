@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classic Blue, day (WidgetStyle.swift pearlGradient). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/widget_radius" />
+    <gradient android:angle="315" android:startColor="#FF579EFC" android:centerColor="#FF527AF2" android:endColor="#FF8775F2" />
+</shape>

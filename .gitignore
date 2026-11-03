@@ -1,0 +1,26 @@
+# Gradle and build outputs
+.gradle/
+.kotlin/
+build/
+app/build/
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Machine and secret configuration
+local.properties
+keystore.properties
+*.jks
+*.keystore
+firebase.properties
+google-services.json
+
+# Copied from the web build by the syncWeb task
+app/src/main/assets/www/
+
+# QA output (qa/*.mjs)
+out/

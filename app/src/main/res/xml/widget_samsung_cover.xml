@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Optional Samsung discovery metadata; rendering remains a standard Android AppWidget. -->
+<samsung-appwidget-provider display="sub_screen" />

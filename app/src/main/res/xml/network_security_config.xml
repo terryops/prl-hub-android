@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HTTPS only, except the Nockchain node the official nockchain-wallet CLI uses by default: plain
+     HTTP on a bare IP, reached only through the bridge's nock.rpc (NockRpc.kt). The iOS app has
+     the same single-address ATS exception. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">216.158.95.10</domain>
+    </domain-config>
+</network-security-config>

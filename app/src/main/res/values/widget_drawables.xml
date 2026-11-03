@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Widget surfaces for the app's "system" appearance (day). -->
+<resources>
+    <item name="widget_bg_classic" type="drawable">@drawable/widget_bg_classic_light</item>
+    <item name="widget_bg_mono" type="drawable">@drawable/widget_bg_mono_light</item>
+    <item name="widget_panel_classic" type="drawable">@drawable/widget_panel_classic_light</item>
+    <item name="widget_panel_mono" type="drawable">@drawable/widget_panel_mono_light</item>
+    <item name="widget_pill_classic" type="drawable">@drawable/widget_pill_classic_light</item>
+    <item name="widget_pill_mono" type="drawable">@drawable/widget_pill_mono_light</item>
+    <item name="widget_div_classic" type="drawable">@drawable/widget_div_classic_light</item>
+    <item name="widget_div_mono" type="drawable">@drawable/widget_div_mono_light</item>
+    <item name="widget_rigs_partial_classic" type="drawable">@drawable/widget_rigs_partial_classic_light</item>
+    <item name="widget_rigs_ok_mono" type="drawable">@drawable/widget_rigs_ok_mono_light</item>
+    <item name="widget_rigs_partial_mono" type="drawable">@drawable/widget_rigs_partial_mono_light</item>
+    <item name="widget_rigs_down_mono" type="drawable">@drawable/widget_rigs_down_mono_light</item>
+</resources>

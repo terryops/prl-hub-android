@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widgets. Generated from the iOS app's Localizable.strings (prl-hub Sources/*.lproj); keep in step. -->
+<resources>
+    <string name="widget_balance">Saldo</string>
+    <string name="widget_recent">Transaksi Terbaru</string>
+    <string name="widget_no_transactions">Belum ada transaksi</string>
+    <string name="widget_create_wallet">Buat Dompet</string>
+    <string name="widget_pro_feature">Fitur Pro</string>
+    <string name="widget_pro_pitch">Saldo, harga, dan hashrate pool sekilas pandang</string>
+    <string name="widget_tap_to_unlock">Ketuk untuk membuka</string>
+    <string name="widget_small_free">Ukuran kecil gratis</string>
+    <string name="widget_hub_description">Saldo dompet dan pemantauan pool (sedang &amp; besar perlu Pro)</string>
+    <string name="widget_price_name">Harga PRL</string>
+    <string name="widget_price_description">Tanggal, hari, dan harga PRL terkini</string>
+    <string name="widget_quote_name">Harga PRL</string>
+    <string name="widget_quote_description">Harga dan perubahan 1 / 24 jam</string>
+    <string name="widget_quote_mining_name">Harga &amp; Monitor Pool</string>
+    <string name="widget_quote_mining_description">Harga PRL, total hashrate, dan penambang online</string>
+    <string name="widget_quote_updated">Harga diperbarui pada %1$s</string>
+    <string name="widget_pools_updated">Pool diperbarui pada %1$s</string>
+    <string name="widget_add_monitor">Tambah monitor pool</string>
+    <string name="widget_monitor">Monitor</string>
+    <string name="widget_hashrate">Hashrate</string>
+    <string name="widget_online">Daring</string>
+    <string name="widget_monitors_combined">Gabungan %1$d monitor</string>
+    <string name="widget_monitors_with_data">%1$d/%2$d monitor memiliki data</string>
+    <string name="widget_one_hour">1 jam</string>
+    <string name="widget_one_day">24 jam</string>
+    <string name="widget_change_1h_name">Perubahan PRL: 1 jam</string>
+    <string name="widget_change_24h_name">Perubahan PRL: 24 jam</string>
+    <string name="widget_change_1h_description">Perubahan harga PRL dalam satu jam terakhir</string>
+    <string name="widget_change_24h_description">Perubahan harga PRL dalam 24 jam terakhir</string>
+    <string name="widget_cover_market_name">Sekilas Pasar</string>
+    <string name="widget_cover_mining_name">Sekilas Mining</string>
+    <string name="widget_cover_description">Angka besar untuk layar utama dan layar luar yang didukung; ukuran dapat diubah.</string>
+</resources>

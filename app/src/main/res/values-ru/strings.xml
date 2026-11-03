@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">Ценовые оповещения</string>
+    <string name="channel_offline">Оповещения об офлайне</string>
+    <string name="channel_income">Оповещения о поступлениях</string>
+    <string name="channel_live">Цена на экране блокировки</string>
+    <string name="webview_update_title">Обновите Android System WebView</string>
+    <string name="webview_update_message">Для Pearl Hub нужна более новая версия Android System WebView. Обновите её в Google Play и снова откройте приложение.</string>
+    <string name="webview_update_action">Обновить</string>
+    <string name="close">Закрыть</string>
+    <string name="no_app_for_link">Нет приложения, которое может открыть эту ссылку.</string>
+    <string name="unlock_wallet">Разблокировать кошелёк</string>
+</resources>

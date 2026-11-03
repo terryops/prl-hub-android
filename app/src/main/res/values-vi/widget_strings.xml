@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widgets. Generated from the iOS app's Localizable.strings (prl-hub Sources/*.lproj); keep in step. -->
+<resources>
+    <string name="widget_balance">Số dư</string>
+    <string name="widget_recent">Giao dịch gần đây</string>
+    <string name="widget_no_transactions">Chưa có giao dịch</string>
+    <string name="widget_create_wallet">Tạo ví</string>
+    <string name="widget_pro_feature">Tính năng Pro</string>
+    <string name="widget_pro_pitch">Số dư, giá và hashrate pool trong nháy mắt</string>
+    <string name="widget_tap_to_unlock">Chạm để mở khóa</string>
+    <string name="widget_small_free">Cỡ nhỏ dùng miễn phí</string>
+    <string name="widget_hub_description">Số dư ví và theo dõi pool (cỡ vừa và lớn cần Pro)</string>
+    <string name="widget_price_name">Giá PRL</string>
+    <string name="widget_price_description">Ngày, thứ và giá PRL hiện tại</string>
+    <string name="widget_quote_name">Báo giá PRL</string>
+    <string name="widget_quote_description">Giá và mức thay đổi trong 1 / 24 giờ</string>
+    <string name="widget_quote_mining_name">Báo giá và theo dõi pool</string>
+    <string name="widget_quote_mining_description">Giá PRL, tổng hashrate và máy đào trực tuyến</string>
+    <string name="widget_quote_updated">Báo giá cập nhật lúc %1$s</string>
+    <string name="widget_pools_updated">Pool cập nhật lúc %1$s</string>
+    <string name="widget_add_monitor">Thêm theo dõi pool</string>
+    <string name="widget_monitor">Theo dõi</string>
+    <string name="widget_hashrate">Hashrate</string>
+    <string name="widget_online">Trực tuyến</string>
+    <string name="widget_monitors_combined">Tổng hợp %1$d mục theo dõi</string>
+    <string name="widget_monitors_with_data">%1$d/%2$d mục theo dõi có dữ liệu</string>
+    <string name="widget_one_hour">1 giờ</string>
+    <string name="widget_one_day">24 giờ</string>
+    <string name="widget_change_1h_name">Thay đổi PRL trong 1 giờ</string>
+    <string name="widget_change_24h_name">Thay đổi PRL trong 24 giờ</string>
+    <string name="widget_change_1h_description">Mức thay đổi giá PRL trong giờ qua</string>
+    <string name="widget_change_24h_description">Mức thay đổi giá PRL trong 24 giờ qua</string>
+    <string name="widget_cover_market_name">Thị trường nhanh</string>
+    <string name="widget_cover_mining_name">Đào coin nhanh</string>
+    <string name="widget_cover_description">Số lớn cho màn hình chính và màn hình ngoài được hỗ trợ; có thể đổi kích thước.</string>
+</resources>

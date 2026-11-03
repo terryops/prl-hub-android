@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">Cảnh báo giá</string>
+    <string name="channel_offline">Cảnh báo ngoại tuyến</string>
+    <string name="channel_income">Cảnh báo nhận tiền</string>
+    <string name="channel_live">Giá trên màn hình khóa</string>
+    <string name="webview_update_title">Cập nhật Android System WebView</string>
+    <string name="webview_update_message">Pearl Hub cần phiên bản Android System WebView mới hơn. Hãy cập nhật trên Google Play rồi mở lại ứng dụng.</string>
+    <string name="webview_update_action">Cập nhật</string>
+    <string name="close">Đóng</string>
+    <string name="no_app_for_link">Không có ứng dụng nào mở được liên kết này.</string>
+    <string name="unlock_wallet">Mở khóa ví</string>
+</resources>

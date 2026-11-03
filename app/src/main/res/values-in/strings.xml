@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">Peringatan Harga</string>
+    <string name="channel_offline">Peringatan Offline</string>
+    <string name="channel_income">Peringatan Dana Masuk</string>
+    <string name="channel_live">Harga di layar kunci</string>
+    <string name="webview_update_title">Perbarui Android System WebView</string>
+    <string name="webview_update_message">Pearl Hub memerlukan versi Android System WebView yang lebih baru. Perbarui di Google Play, lalu buka aplikasi lagi.</string>
+    <string name="webview_update_action">Perbarui</string>
+    <string name="close">Tutup</string>
+    <string name="no_app_for_link">Tidak ada aplikasi yang dapat membuka tautan ini.</string>
+    <string name="unlock_wallet">Buka Kunci Dompet</string>
+</resources>

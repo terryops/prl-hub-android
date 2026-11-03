@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">価格アラート</string>
+    <string name="channel_offline">オフラインアラート</string>
+    <string name="channel_income">入金アラート</string>
+    <string name="channel_live">ロック画面のライブ価格</string>
+    <string name="webview_update_title">Android System WebView をアップデート</string>
+    <string name="webview_update_message">Pearl Hub には新しいバージョンの Android System WebView が必要です。Google Play でアップデートしてから、アプリをもう一度開いてください。</string>
+    <string name="webview_update_action">アップデート</string>
+    <string name="close">閉じる</string>
+    <string name="no_app_for_link">このリンクを開けるアプリがありません。</string>
+    <string name="unlock_wallet">ウォレットのロックを解除</string>
+</resources>

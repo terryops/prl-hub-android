@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PRL Price: today's date and weekday over the live price. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_classic">
+
+    <LinearLayout
+        android:id="@+id/w_price_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/widget_padding">
+
+        <TextView
+            android:id="@+id/w_date"
+            style="@style/WidgetText.Figure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_sample_date"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/w_price_label"
+            style="@style/WidgetText.Label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_pair" />
+
+        <TextView
+            android:id="@+id/w_price"
+            style="@style/WidgetText.Price"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:autoSizeMaxTextSize="40sp"
+            android:text="@string/widget_sample_price" />
+    </LinearLayout>
+</FrameLayout>

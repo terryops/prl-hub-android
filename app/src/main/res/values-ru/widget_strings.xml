@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widgets. Generated from the iOS app's Localizable.strings (prl-hub Sources/*.lproj); keep in step. -->
+<resources>
+    <string name="widget_balance">Баланс</string>
+    <string name="widget_recent">Последние транзакции</string>
+    <string name="widget_no_transactions">Нет транзакций</string>
+    <string name="widget_create_wallet">Создать кошелёк</string>
+    <string name="widget_pro_feature">Функция Pro</string>
+    <string name="widget_pro_pitch">Баланс, цена и хешрейт пулов — с одного взгляда</string>
+    <string name="widget_tap_to_unlock">Нажмите, чтобы открыть</string>
+    <string name="widget_small_free">Маленький размер — бесплатно</string>
+    <string name="widget_hub_description">Баланс кошелька и мониторинг пулов (средний и большой — Pro)</string>
+    <string name="widget_price_name">Цена PRL</string>
+    <string name="widget_price_description">Дата, день недели и текущая цена PRL</string>
+    <string name="widget_quote_name">Котировка PRL</string>
+    <string name="widget_quote_description">Цена и изменение за 1 / 24 часа</string>
+    <string name="widget_quote_mining_name">Котировка и мониторинг пулов</string>
+    <string name="widget_quote_mining_description">Цена PRL, общий хешрейт и майнеры онлайн</string>
+    <string name="widget_quote_updated">Котировка обновлена: %1$s</string>
+    <string name="widget_pools_updated">Пулы обновлены: %1$s</string>
+    <string name="widget_add_monitor">Добавить мониторинг пула</string>
+    <string name="widget_monitor">Монитор</string>
+    <string name="widget_hashrate">Хешрейт</string>
+    <string name="widget_online">В сети</string>
+    <string name="widget_monitors_combined">Всего мониторов: %1$d</string>
+    <string name="widget_monitors_with_data">Данные у %1$d/%2$d мониторов</string>
+    <string name="widget_one_hour">1 час</string>
+    <string name="widget_one_day">24 часа</string>
+    <string name="widget_change_1h_name">Изменение PRL за 1 час</string>
+    <string name="widget_change_24h_name">Изменение PRL за 24 часа</string>
+    <string name="widget_change_1h_description">Изменение цены PRL за последний час</string>
+    <string name="widget_change_24h_description">Изменение цены PRL за последние 24 часа</string>
+    <string name="widget_cover_market_name">Рынок на одном экране</string>
+    <string name="widget_cover_mining_name">Майнинг на одном экране</string>
+    <string name="widget_cover_description">Крупные показатели для главного и поддерживаемых внешних экранов; размер можно менять.</string>
+</resources>

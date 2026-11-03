@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_price">Fiyat Alarmları</string>
+    <string name="channel_offline">Çevrimdışı Alarmları</string>
+    <string name="channel_income">Gelen Ödeme Alarmları</string>
+    <string name="channel_live">Kilitli Ekran’da canlı fiyat</string>
+    <string name="webview_update_title">Android System WebView’ı güncelleyin</string>
+    <string name="webview_update_message">Pearl Hub, Android System WebView’ın daha yeni bir sürümüne ihtiyaç duyuyor. Google Play’den güncelleyip uygulamayı yeniden açın.</string>
+    <string name="webview_update_action">Güncelle</string>
+    <string name="close">Kapat</string>
+    <string name="no_app_for_link">Bu bağlantıyı açabilecek bir uygulama yok.</string>
+    <string name="unlock_wallet">Cüzdanın Kilidini Aç</string>
+</resources>

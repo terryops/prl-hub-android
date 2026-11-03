@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PRL Price: one 2×1 row by default, resizable. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_price_description"
+    android:initialLayout="@layout/widget_price_compact"
+    android:minWidth="110dp"
+    android:minHeight="56dp"
+    android:minResizeWidth="56dp"
+    android:minResizeHeight="56dp"
+    android:previewImage="@drawable/widget_preview_price"
+    android:previewLayout="@layout/widget_price_compact"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen|keyguard" />
