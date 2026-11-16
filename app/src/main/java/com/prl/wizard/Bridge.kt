@@ -49,6 +49,7 @@ class Bridge(private val activity: MainActivity) : WebViewCompat.WebMessageListe
     private val walletWork = Executors.newSingleThreadExecutor()
     private val store = WalletSecretStore(activity.applicationContext)
     private val safeTradeKeys = SafeTradeKeyStore(activity.applicationContext)
+    private val gateKeys = GateKeyStore(activity.applicationContext)
     private var liveGeneration = 0L
     private var closed = false
 
@@ -220,6 +221,28 @@ class Bridge(private val activity: MainActivity) : WebViewCompat.WebMessageListe
                 }
             }
             "safetrade.request" -> safeTradeRequest(p, call)
+            "gate.keys" -> {
+                val masked = gateKeys.masked()
+                call.ok(JSONObject().put("set", masked != null).put("masked", masked ?: JSONObject.NULL))
+            }
+            "gate.save" -> {
+                val key = p.str("key").trim()
+                val secret = p.str("secret").trim()
+                if (!SafeTrade.isCredential(key) || !SafeTrade.isCredential(secret)) throw BadParams()
+                walletWork.execute {
+                    if (gateKeys.save(key, secret)) call.ok(JSONObject().put("masked", SafeTrade.masked(key))) else call.fail("failed")
+                }
+            }
+            "gate.clear" -> walletWork.execute {
+                try {
+                    gateKeys.clear()
+                    call.ok()
+                } catch (e: Exception) {
+                    Log.w(TAG, "gate.clear failed: ${e.javaClass.simpleName}")
+                    call.fail("failed")
+                }
+            }
+            "gate.request" -> gateRequest(p, call)
             "widgets.update" -> {
                 if (!p.has("data") || !Widgets.publish(activity, p.str("part"), p.opt("data"))) throw BadParams()
                 call.ok()
@@ -335,6 +358,34 @@ class Bridge(private val activity: MainActivity) : WebViewCompat.WebMessageListe
             // Raised before the connection was made (SafeTrade.send classifies everything after it): nothing
             // reached SafeTrade. Not `failed`, which after a withdrawal's prompt would read as the check failing.
             Log.w(TAG, "safetrade.request failed: ${e.javaClass.simpleName}")
+            call.fail("unreached")
+        }
+    }
+
+    private fun gateRequest(p: JSONObject, call: Call) {
+        val request = Gate.request(p) ?: throw BadParams()
+        if (request.auth == Gate.Auth.Stored && !gateKeys.hasKeys()) return call.fail("no_credentials")
+        val check = request.deviceCheck ?: return gateSend(request, call)
+        activity.walletAuth.authenticate(check.title, check.subtitle) { error ->
+            if (error != null) return@authenticate call.fail(error)
+            if (closed) return@authenticate call.fail("cancelled")
+            gateSend(request, call)
+        }
+    }
+
+    private fun gateSend(request: Gate.Request, call: Call) = network.execute {
+        try {
+            val credentials = when (val auth = request.auth) {
+                Gate.Auth.None -> null
+                Gate.Auth.Stored -> gateKeys.read() ?: return@execute call.fail("no_credentials")
+                is Gate.Auth.Explicit -> auth.key to auth.secret
+            }
+            val reply = Gate.send(request, credentials)
+            call.ok(JSONObject().put("status", reply.status).put("body", reply.body))
+        } catch (e: Gate.Failure) {
+            call.fail(e.code)
+        } catch (e: Exception) {
+            Log.w(TAG, "gate.request failed: ${e.javaClass.simpleName}")
             call.fail("unreached")
         }
     }

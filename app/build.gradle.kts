@@ -44,8 +44,8 @@ android {
         applicationId = "com.prl.wizard"
         minSdk = 26
         targetSdk = 36
-        versionCode = 6
-        versionName = "2.1.1"
+        versionCode = 8
+        versionName = "2.1.3"
         testInstrumentationRunner = providers.gradleProperty("checkRunner").getOrElse("com.prl.wizard.WidgetRenderCheck")
 
         buildConfigField("String", "FIREBASE_PROJECT_ID", quoted(firebase.getValue("projectId")))

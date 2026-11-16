@@ -172,9 +172,9 @@ check(await enterPin(), "PIN entered");
 const sent = await again;
 check(refusedKey(sent), `confirmed withdrawal reaches SafeTrade (made-up key refused): ${sent.ok ? sent.result.status + " " + sent.result.body.slice(0, 100) : sent.error}`);
 
-// Clear the key again from 设置 → 交易（SafeTrade）.
+// Clear the key again from 设置 → 交易.
 await tab(4);
-check(await row(await js(`[...document.querySelectorAll(".android-row-label")].map((e) => e.firstChild?.textContent.trim()).find((t) => /SafeTrade/.test(t))`)), "settings row opens 交易（SafeTrade）");
+check(await row(await js(`[...document.querySelectorAll(".android-row-label")].map((e) => e.firstChild?.textContent.trim()).find((t) => /交易|Trade|SafeTrade/.test(t))`)), "settings row opens 交易");
 check(await until(`document.querySelector(".trade-keys .android-row.danger")`, 15000), "settings page shows the saved key");
 await pageShot("5-settings");
 await click("document", ".trade-keys .android-row.danger");
